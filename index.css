@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.shadow{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+i{
+    height: 15px;
+    width: 19px;
+}
+li{
+    list-style: none;
+}
+/* header start */
+header{
+    background-color: #4d636f;
+    width: 100%;
+    height: 51px;
+    color: #fff;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header nav ul li{
+    padding: 15px 24px;
+}
+header nav ul li:hover{
+    background-color: #fff;
+}
+header nav ul li.link{
+    background-color: #303e45;
+    font-size: 18px;
+    padding: 16px 24px 12px;
+}
+header nav ul li.link:hover{
+    background-color: #cccccc;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+header nav ul li:hover a{
+    color: #000;
+}
+header nav ul li.relative{
+    position: relative;
+}
+header nav ul li.relative span{
+    position: absolute;
+    padding: 0 8px;
+    border-radius: 50%;
+    background-color: #4caf50;
+    font-size: 12px;
+}
+nav .profile img{
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+/* header end */
+section{
+    display: grid;
+    grid-template-columns: 314px 766px 228px;
+    grid-column-gap: 20px;
+    margin: 30px 10px 20px 90px;
+}
+/* container1 start */
+section .container1 .my_profile{
+    width: 314px;
+    height: 314px;
+    position: relative;
+}
+section .container1 .my_profile p{
+    position: absolute;
+    left: 110px;
+    top: 20px;
+    font-size: 20px;
+}
+section .container1 .my_profile img{
+    position: absolute;
+    top: 50px;
+    left: 105px;
+}
+section .container1 .my_profile hr{
+    position: absolute;
+    top: 180px;
+    left: 15px;
+    width: 90%;
+    border-top: 1px solid #eee ;
+
+}
+section .container1 .my_profile ul{
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    font-size: 15px;
+}
+section .container1 .my_profile ul li{
+    margin-bottom: 10px;
+}
+section .container1 .my_profile ul li i{
+    margin-right: 10px;
+    color: #7d97a5;
+}
+section .container1 .groups{
+    width: 314px;
+    height: 115px;
+    position: relative;
+    color: #fff;
+}
+section .container1 .groups ul li{
+    padding: 10px;
+    background-color: #7d97a5;
+}
+section .container1 .groups ul li i{
+    margin-right: 10px;
+    margin-left: 5px;
+}
+section .container1 .groups ul li:hover{
+    background-color: #cccccc;
+    color: #000;
+}
+section .container1 .interests {
+    position: relative;
+    height: 135px;
+    width: 314px;
+}
+section .container1 .interests p {
+    position: absolute;
+    font-size: 15px;
+    top: 10px;
+    left: 15px;
+}
+section .container1 .interests ul {
+    position: absolute;
+    top: 33px;
+    left: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+section .container1 .interests ul li {
+    font-size: 12px;
+    padding: 4px 8px;
+    color: #fff;
+    margin: 4px 2px;
+    font-size: 12px;
+}
+section .container1 .hey{
+    position: relative;
+    background-color: #dfe5e8;
+    border: 1px solid #cccccc;
+    width: 314px;
+    height: 115px;
+}
+section .container1 .hey i{
+    position: absolute;  
+    background-color: #becbd2; 
+    right: 0;
+    top: 0;
+    width: 44px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section .container1 .hey i:hover{
+    background-color: #cccccc;
+}
+section .container1 .hey p:nth-child(1){
+    position: absolute;
+    top: 15px;
+}
+section .container1 .hey p{
+    position: absolute;
+    top: 50px;
+    font-size: 15px;
+    margin: 5px 15px;
+}
+/* container1 end */
+
+
+/* container2 start */
+section .container2 .upper{
+    position: relative;
+    height: 160px;
+    width: 766px;
+}
+section .container2 .upper p{
+    position: absolute;
+    left: 15px;
+    top: 30px;
+}
+section .container2 .upper input{
+    position: absolute;
+    top: 70px;
+    left: 15px;
+    padding: 8px 16px;
+    width: 734px;
+    outline: none;
+    border: 1px solid #cccccc;
+}
+section .container2 .upper input:focus{
+    border: 2px solid #000;
+}
+section .container2 .upper button{
+    position: absolute;
+    left: 15px;
+    bottom: 10px;
+}
+section .container2 .middle{
+    position: relative;
+    width: 766px;
+    height: 528px;
+    border-radius: 10px;
+}
+
+section .container2 .middle h4, section .container2 .middle1 h4,
+section .container2 .middle2 h4{
+    position: absolute;
+    left: 90px;
+    top: 50px;
+    font-size: 20px;
+    font-weight: 400;
+}
+section .container2 .middle .image, section .container2 .middle1 .image,
+section .container2 .middle2 .image{
+    position: absolute;
+    left: 15px;
+    top: 30px;
+}
+section .container2 .middle .min, section .container2 .middle1 .min,
+section .container2 .middle2 .min{
+    position: absolute;
+    right: 40px;
+    top: 50px;
+    opacity: 0.6;
+    font-size: 15px;
+}
+section .container2 .middle hr, section .container2 .middle1 hr,
+section .container2 .middle2 hr{
+    position: absolute;
+    top: 125px;
+    left: 15px;
+    width: 94%;
+    border-top: 1px solid #eee ;
+}
+section .container2 .middle .paragraph p{
+    position: absolute;
+    left: 15px;
+    top: 150px;
+}
+section .container2 .middle .photos{
+    position: absolute;
+    left: 15px;
+    bottom: 60px;
+}
+section .container2 .middle .comment{
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+}
+section .container2  button{
+    padding: 8px 16px;
+    background-color: #4d636f;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+section button:hover{
+    background-color: #cccccc;
+    color: #000;
+}
+section .container2 .middle1{
+    width: 768px;
+    height: 272px;
+}
+section .container2 .middle1{
+    position: relative;
+}
+section .container2 .middle1 p{
+    position: absolute;
+    left: 15px;
+    bottom: 60px;
+}
+section .container2 .middle1 .comment{
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+}
+section .container2 .middle2{
+    position: relative;
+    height: 830px;
+    width: 766px;
+}
+section .container2 .middle2 p:nth-child(1){
+    position: absolute;
+    left: 15px;
+    top: 160px;
+}
+section .container2 .middle2 p:nth-child(2){
+    position: absolute;
+    left: 15px;
+    bottom: 60px;
+}
+section .container2 .middle2 .comment{
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+}
+/* container2 end */
+
+/* container3 start */
+section .container3 .events{
+    position: relative;
+    height: 326px;
+    width: 228px;
+}
+section .container3 .events p:nth-child(1){
+    position: absolute;
+    top: 20px;
+    left: 35px;
+    font-size: 15px;
+}
+section .container3 .events img{
+    position: absolute;
+    left: 15px;
+    top: 60px;
+}
+section .container3 .events h4{
+    position: absolute;
+    font-size: 15px;
+    top: 210px;
+    left: 85px;
+}
+section .container3 .events p{
+    position: absolute;
+    left: 65px;
+    bottom: 55px;
+}
+section .container3 .events button{
+    position: absolute;
+    width: 196px;
+    bottom: 10px;
+    left: 15px;
+    padding: 8px 16px;
+    font-size: 15px;
+    background-color: #dfe5e8;
+    outline: none;
+    border: none;
+}
+section .container3 .events button:hover{
+    background-color: #cccccc;
+}
+section .container3 .Friend{
+    position: relative;
+    width: 228px;
+    height: 243px;
+}
+section .container3 .Friend .jane{
+    position: absolute;
+    left: 60px;
+    top: 20px;
+    font-size: 15px;
+}
+section .container3 .Friend img{
+    position: absolute;
+    left: 65px;
+    top: 50px
+}
+section .container3 .Friend .name {
+    position: absolute;
+    left: 75px;
+    bottom: 70px;
+    
+}
+section .container3 .Friend button{
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    height: 38px;
+    width: 98px;
+    padding: 8px 16px;
+    background-color: red;
+    opacity: 0.5;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+section .container3 .Friend button:last-child{
+    position: absolute;
+    left: 15px;
+    bottom: 10px;
+    width: 98px;
+    padding: 8px 16px;
+    background-color: green;
+
+    opacity: 0.5;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+section .container3 .Friend button:hover{
+    background-color: #cccccc;
+    color: green;
+}
+section .container3 .ads{
+    display: grid;
+    place-items: center;
+    height: 85px;
+    width: 228px;
+}
+section .container3 .bug {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 228px;
+    height: 130px;
+}
+section .container3 .bug i{
+    font-size: 40px;
+}
+/* container3 end */
+
+/* footer */
+footer h5{
+    background-color: #4d636f;
+     color: #fff;
+     height: 80px;
+     font-size: 18px;
+     padding: 30px;
+     font-weight: 500;
+}
+footer p{
+    height: 53px;
+    color: #fff;
+    background-color: #303e45;
+    padding: 20px 30px ;
+}
